@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elias Murad's portfolio: marketing, entrepreneurship, and technology projects.">
+  <title>Elias Murad | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #243247;
+      background: #f5f7fa;
+    }
+    header {
+      background: #15263f;
+      color: white;
+      padding: 65px 24px;
+    }
+    .container { max-width: 1000px; margin: auto; }
+    .label {
+      color: #aad8ff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+    h1 { font-size: clamp(36px, 7vw, 56px); margin: 12px 0; }
+    header p { max-width: 720px; font-size: 18px; }
+    nav { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 28px; }
+    nav a { color: white; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 3px solid #58b5ff; outline-offset: 5px; }
+    main { padding: 20px 24px 50px; }
+    section { padding: 25px 0; }
+    h2 { font-size: 28px; color: #15263f; margin-bottom: 18px; }
+    .skills {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills li {
+      background: #e5edf7;
+      padding: 9px 16px;
+      border-radius: 6px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    article {
+      background: white;
+      border: 1px solid #dce3ec;
+      border-top: 4px solid #367abb;
+      border-radius: 8px;
+      padding: 24px;
+    }
+    article h3 { margin: 8px 0 12px; color: #15263f; }
+    .category {
+      color: #52657d;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .contact a { color: #215e99; overflow-wrap: anywhere; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #15263f;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="label">Rutgers Business School · BAIT &amp; Marketing</div>
+      <h1>Elias Murad</h1>
+      <p>
+        I’m a Rutgers Business School student studying Business Analytics
+        and Information Technology and Marketing, combining entrepreneurial
+        experience, technology skills, and creative thinking to solve
+        business problems and support my community.
+      </p>
+      <nav aria-label="Main navigation">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Basic HTML &amp; Web Design</li>
+        <li>Web Analytics</li>
+        <li>Social Media Marketing</li>
+        <li>eCommerce Campaign Support</li>
+        <li>Brand Development</li>
+        <li>Product Development</li>
+        <li>Computer Hardware &amp; Troubleshooting</li>
+        <li>Project Coordination</li>
+        <li>Team Leadership</li>
+        <li>Customer Communication</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article>
+          <div class="category">Entrepreneurship &amp; Marketing</div>
+          <h3>MOVE Performance Apparel</h3>
+          <p>
+            Co-founded an athletic apparel startup and developed grip sock
+            prototypes by sourcing materials, collaborating with
+            manufacturers, and incorporating athlete feedback.
+            Led branding, social media campaigns, and customer outreach
+            to support the brand’s launch.
+          </p>
+        </article>
+
+        <article>
+          <div class="category">Technology &amp; Community Service</div>
+          <h3>BuildaPc</h3>
+          <p>
+            Founded a computer building and refurbishment initiative
+            during COVID-19. Built computers and provided upgrade
+            services, then shifted the initiative toward donating
+            refurbished devices to charities and underserved students
+            to improve access to technology.
+          </p>
+        </article>
+
+        <article>
+          <div class="category">Leadership &amp; Digital Access</div>
+          <h3>MY-USA.Club Technology Donations</h3>
+          <p>
+            Built and donated desktop computers to community
+            organizations, including The East Trenton Library and
+            Philadelphia Children’s Foundation. Refurbished computers
+            with TDI Connect to help underserved families and refugee
+            students access internet-ready devices.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>
+        Interested in connecting? Email me at
+        <a href="mailto:em1276@scarletmail.rutgers.edu">
+          em1276@scarletmail.rutgers.edu
+        </a>.
+      </p>
+      <p><a href="https://github.com/eliasmurad7">View my GitHub profile</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Elias Murad</footer>
+</body>
+</html>
